@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ParallelSuite" parallel="tests" thread-count="2">
+<!--<suite name="SingleDeviceSuite">-->
+    <listeners>
+        <listener class-name="listeners.ExtentTestNGListener"/>
+    </listeners>
+    <test name="Device1">
+        <parameter name="deviceName" value="emulator-5556"/>
+        <parameter name="udid" value="emulator-5556"/>
+        <parameter name="port" value="4723"/>
+        <parameter name="systemPort" value="8202"/>
+
+        <classes>
+            <class name="TestRunner.TestRunnerAppium"/>
+        </classes>
+    </test>
+
+<!--
+    <test name="Device2">
+        <parameter name="deviceName" value="emulator-5554"/>
+        <parameter name="udid" value="emulator-5554"/>
+        <parameter name="port" value="4725"/>
+        <parameter name="systemPort" value="8205"/>
+        <classes>
+            <class name="TestRunner.TestRunnerAppium"/>
+        </classes>
+    </test>
+-->
+
+</suite>
