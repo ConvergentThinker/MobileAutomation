@@ -1,0 +1,9 @@
+{
+  "defaultMaxRetries": 2,
+  "retryDelayMs": 1000,
+  "exponentialBackoff": true,
+  "retryableExceptions": [
+    "StaleElementReferenceException"
+  ],
+  "nonRetryableExceptions": []
+}
