@@ -1,0 +1,42 @@
+[
+  {
+    "udid": "emulator-5554",
+    "deviceName": "Device-1",
+    "platformName": "Android",
+    "platformVersion": "13",
+    "tier": "standard",
+    "executionType": "local",
+    "appPackage": "com.placeholder.app",
+    "appActivity": ".MainActivity"
+  },
+  {
+    "udid": "emulator-5556",
+    "deviceName": "Device-2",
+    "platformName": "Android",
+    "platformVersion": "13",
+    "tier": "standard",
+    "executionType": "local",
+    "appPackage": "com.placeholder.app",
+    "appActivity": ".MainActivity"
+  },
+  {
+    "udid": "emulator-5558",
+    "deviceName": "Device-3",
+    "platformName": "Android",
+    "platformVersion": "13",
+    "tier": "standard",
+    "executionType": "local",
+    "appPackage": "com.placeholder.app",
+    "appActivity": ".MainActivity"
+  },
+  {
+    "udid": "emulator-5560",
+    "deviceName": "Device-4",
+    "platformName": "Android",
+    "platformVersion": "13",
+    "tier": "standard",
+    "executionType": "local",
+    "appPackage": "com.placeholder.app",
+    "appActivity": ".MainActivity"
+  }
+]
