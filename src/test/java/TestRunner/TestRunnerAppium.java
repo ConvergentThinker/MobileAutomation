@@ -10,6 +10,7 @@ import org.testng.annotations.Parameters;
 @CucumberOptions(
         features = "src/test/resources/Features",
         glue = {"StepDef", "hooks"},
+        tags = "@smoke",   // <-- add your tag expression here
         plugin = {"pretty",
                 "summary",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
